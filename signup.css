@@ -1,0 +1,364 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ body{
+ 
+ width:100%;
+ 
+ background-color:#CCC;
+
+  }
+ 
+.main_wrapper {
+
+   width:80%;
+   margin-left:130px;
+   background-color:#FFF;
+   border:2px solid #06F;
+ 
+}
+    
+	#headline_content {float:right;}
+	
+	#headline {background-color:#03F;
+		width:100%;
+		float:right}
+	
+   #navbar {
+    width:100%;
+   height:40px;
+   background:#039;
+   color:#FFF;
+   float:right;
+		
+	}
+	#menu
+	{
+		 padding:0;
+		 
+		 
+		 float:right;
+	}
+	#menu li {
+		
+		list-style:none;
+		display:inline;
+		text-align:center;
+		
+	       }
+		   #menu a {
+		     color:#FFF;
+			 text-decoration:blink;
+			 font-size:20px;
+			 margin:5px;
+			 padding:10px;
+			 
+			 
+		   }
+		   #menu a:hover {
+			   text-decoration:underline;
+			   color:#333;
+			   font-weight:bolder;
+		   }
+		   #menuLog
+	{
+		 padding:0;
+		 line-height:36px;
+		 margin-top:5px;
+		 float:right;
+	}
+	#menuLog li {
+		
+		list-style:none;
+		display:inline;
+		text-align:center;
+	       }
+		   #menuLog a {
+		     color:#000;
+			 text-decoration:none;
+			 font-size:20px;
+			 margin:5px;
+			 padding:10px;
+			 
+		   }
+		   #menuLog a:hover {
+			   text-decoration:underline;
+			   color:#FFF;
+			   font-weight:bolder;
+		   }
+		   #lift_offer{
+		                border:thick;
+						border-color:#006;
+						background-color:#FFF;
+						
+						height:250px;
+						padding:2px;
+						width:250px;
+                       margin-top:170px;
+					   margin-left:900px;
+					   margin-right:200px;
+					   margin-bottom:400px;
+		       
+		            }
+					#lift_find{
+		                border:thick;
+						border-color:#006;
+						background-color:#393;
+						
+						height:250px;
+						padding:2px;
+						width:250px;
+                       margin-top:100px;
+					   margin-left:100px;
+					   margin-bottom:400px;
+		       
+		            }
+					
+	#data{
+		margin-top:20px;
+		margin-bottom:20px;
+		margin-left:200px;
+		margin-right:200px;
+		border-color:#FFF;
+		
+		
+		
+		}		
+		#table{
+       width:600px;
+	   
+	    margin-top:200px;
+		margin-bottom:20px;
+		margin-left:200px;
+		margin-right:200px;
+		border-color:#FFF;
+		border-bottom:thick;
+		border-color:#F00;
+		
+			
+			}		
+			#photo{
+				width:75px;
+				height:75px;
+				border-bottom:ridge;
+				float:left;
+				margin-top:0px;
+				border-radius:10px;
+				border:2px solid #F00;
+				border:groove;
+				bor
+				
+				
+				}
+				 #form {
+			   float:left;
+			   padding-right:5px;
+			   line-height:50px;
+		   }
+		      
+			 #avialable_lift {
+				 float:right;
+		   width:600px;
+		   padding:0px;
+          
+		  margin-right:0px;
+		  margin-top:100px;
+		  text-align:center;
+		   
+		   } 
+		    #required_lift {
+				 float:left;
+		      width:600px;
+		   padding:0px;
+          margin-left:0px;
+		  margin-top:100px;
+		 alignment-adjust:after-edge;
+		  text-align:center;
+		 
+		   
+		   } 
+		   #products_box {
+		   width:780px;
+		   padding:10px;
+          margin-left:30px;
+		  margin-right:10px;
+		  margin-top:10px;
+		  text-align:center;
+		   
+		   }
+		    #single_product{
+				
+		   float:right;
+		   padding:10px;
+		   
+		   color:#000;
+		   }
+		     #single_product img{border:2px solid #000}
+			 #single_product a{
+				    color:#C36;
+				 }
+			  .content_wrapper {
+
+   width:auto;
+   
+   height:auto;
+   background:#FFF;
+
+
+    }
+	#head{
+		color:#039;
+		text-align:center;
+		text-decoration:blink;
+		text-height:50px;
+		
+	
+		
+		
+		
+		
+		
+		}
+		#head a {
+		     color:#000;
+			 text-decoration:none;
+			 font-size:20px;
+			 margin:5px;
+			 padding:10px;
+			 
+		   }
+		   #offer_button{
+			     
+				 
+				 margin-top:16px;  
+			 
+			   }
+			   #form1{
+				   margin-top:20px;
+     	width:600px;
+		
+	   padding: 0;
+	   border: 0;
+	  
+   }
+         #head1{
+		color:#FFF;
+		text-align:center;
+		
+		text-height:100px;
+		height:40px;
+		
+		margin-left:240px;
+		
+		 line-height:36px;
+		
+		}
+		 
+		 
+		 #head1 a {
+		     color:#033;
+			 size:50px;
+			 font-size:20px;
+			 margin:5px;
+			 padding:10px;
+			 
+			 
+		   }
+		   #details_image{
+			   float:left;
+			   border:thick;
+			   margin:20px;
+			   padding:20px;
+			   margin-top:100px;
+			   border-radius:3px;
+			   
+			   
+			   }
+		   #details_other{
+			   
+			   margin-left:200px;
+			   border:thick;
+			   margin:20px;
+			   padding:20px;
+			   margin-top:100px;
+			   color:#09F
+			   }
+			   #table1{
+          width:600px;
+	   
+	    
+		border-color:#FFF;
+		border-bottom:thick;
+		border-color:#F00;
+		
+			
+			}	
+			 #details_id{
+			   
+			   float:left;
+			   
+			   margin-top:170px;
+			   
+			   
+			   
+			   }
+			   .submit {
+color:#fff;
+border-radius:3px;
+background:#093;
+padding:5px;
+margin-top:40px;
+border:none;
+
+height:30px;
+box-shadow:0 0 1px 2px #123456;
+font-size:18px
+}
+
+ #portion{
+		
+		width:500px;
+	    margin-top:50px;
+		float:left;
+		margin-right:100px;
+		color:#000;
+	
+		}
+		
+		#portion_main{
+			width:500px;
+		   margin-top:200px;
+		 padding:20px;
+	margin-left:200px;
+		color:#FFF;
+		
+		
+		}

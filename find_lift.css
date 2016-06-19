@@ -1,0 +1,159 @@
+
+
+@import "http://fonts.googleapis.com/css?family=Droid+Serif";
+/* The Above Line Is To Import Google Font Style */
+
+body{
+	background-image:url(../images/liftshare_help.jpg);
+    background-size:cover;                      /* <------ */
+    background-repeat: no-repeat;
+    background-position:center center;              /* optional, center the image */
+}
+.maindiv {
+        a
+
+width:100%;
+height:500px;
+
+padding:5px;
+font-family:'Droid Serif',serif;
+font-size:14px
+}
+.title {
+width:500px;
+height:70px;
+text-shadow:2px 2px 2px #cfcfcf;
+font-size:16px;
+margin-left:100px;
+
+
+}
+.form_div {
+	opacity:0.8;
+width:70%;
+float:none;
+margin-top:100px;
+margin-left:350px;
+margin-right:300px;
+padding:10px;
+}
+ #Div_login{
+		      width:10px;
+			  height:50px;
+			  border:#F00;
+		  }
+form {
+width:300px;
+
+border-width:2px;
+ 
+border: px solid #666;
+padding:10px 30px 40px;
+alignment-adjust:central;
+background-color:#FFF;
+
+
+}
+form h2 {
+text-align:center;
+text-shadow:2px 2px 2px #cfcfcf
+}
+textarea {
+width:100%;
+height:60px;
+border-radius:1px;
+box-shadow:0 0 1px 2px #123456;
+margin-top:10px;
+padding:7px;
+border:none
+}
+.input {
+width:100%;
+height:30px;
+border-radius:2px;
+box-shadow:0 0 1px 2px #123456;
+margin-top:10px;
+padding:7px;
+border:none;
+margin-bottom:20px
+}
+.submit {
+color:#fff;
+border-radius:3px;
+background:#093;
+padding:5px;
+margin-top:40px;
+border:none;
+width:100%;
+height:30px;
+box-shadow:0 0 1px 2px #123456;
+font-size:18px
+}
+p {
+color:red;
+text-align:center
+}
+span {
+text-align:center;
+color:green
+}
+      #drop_down
+	  {
+		  width:100%;
+          height:50px;
+          border-radius:2px;
+           box-shadow:0 0 1px 2px #123456;
+           margin-top:10px;
+               padding:7px;
+              border:none;
+              margin-bottom:20px
+	  }
+	 .error {color: #FF0000;
+	 float:left;}
+	 
+	 #title1 {
+width:500px;
+height:70px;
+text-shadow:2px 2px 2px #cfcfcf;
+font-size:16px;
+margin-left:0px;
+
+
+
+}
+      #navbar {
+	   opacity:0.7;
+    width:inherit;
+   height:120px;
+   background:#FFF;
+   color:#066;
+   float:lefto;
+		
+	}
+	#menu
+	{
+		 padding:0;
+		 line-height:36px;
+		 margin-top:5px;
+		 margin-right:20px;
+		 float:right;
+	}
+#menu li {
+		
+		list-style:none;
+		display:inline;
+		text-align:center;
+	       }
+		   #menu a {
+		     color:#666;
+			 text-decoration:none;
+			 font-size:15px;
+			 margin:10px;
+			 padding:20px;
+			 
+		   }
+		   #menu a:hover {
+			   text-decoration:blink;
+			   color:#333;
+			   font-weight:bolder;
+		   }
